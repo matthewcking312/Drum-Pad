@@ -16,8 +16,8 @@ body,html {
 .keys {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	
-	min-height: 100vh;
+	justify-items: center;
+	min-height: 10vh;
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -35,6 +35,7 @@ body,html {
 	color: white;
 	background: rgba(0,0,0,0.4);
 	text-shadow: 0 0 .5rem black;
+	align-self: center;
 }
 
 .playing {
