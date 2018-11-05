@@ -13,6 +13,14 @@ body,html {
 	overflow: hidden;
 }
 
+#title {
+	color: white;
+}
+
+.wrapper {
+	padding-top: 100px;
+}
+
 .keys {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
