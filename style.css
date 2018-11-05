@@ -15,10 +15,13 @@ body,html {
 
 #title {
 	color: white;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 100px;
+	text-align: center;
 }
 
 .wrapper {
-	padding-top: 100px;
+	padding-top: 5rem;
 }
 
 .keys {
